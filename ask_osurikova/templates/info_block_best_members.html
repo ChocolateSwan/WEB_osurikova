@@ -1,0 +1,10 @@
+<div class="row info_block">
+    <H2>Best Members </H2>
+    <p>
+        {% for author in right_column.authors %}
+            <a > {{ author }} </a> <br>
+        {% empty %}
+            Авторов нет
+        {% endfor %}
+    </p>
+</div>

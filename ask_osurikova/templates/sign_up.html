@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    Sign Up
+{% endblock %}
+
+{% block left_column  %}
+<div class="row">
+    <div class="alert alert-danger">
+        <strong>Sorry! </strong>This Email address alredy registred!
+    </div>
+</div>
+<div class="row">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputLogin" class="col-xs-3 control-label">Login:</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="inputLogin" placeholder="Enter your login">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail" class="col-xs-3 control-label">Email:</label>
+            <div class="col-xs-6">
+                <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputNickName" class="col-xs-3 control-label">NickName:</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="inputNickName" placeholder="Enter NickName">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="col-xs-3 control-label">Password:</label>
+            <div class="col-xs-6">
+                <div class="has-error">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Enter password">
+                    <label class="control-label" for="inputError">Wrong password!</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword2" class="col-xs-3 control-label">Password 2:</label>
+            <div class="col-xs-6">
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Repeat password">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAvatar" class="col-xs-3 control-label">Apload avatar:</label>
+            <div class="col-xs-6">
+                <input type="file" title="Search for a file to add">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-6">
+                <button type="submit" class="btn btn-default">Log in!</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+

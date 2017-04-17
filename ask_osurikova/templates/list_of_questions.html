@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    {{ head }}
+    {% if head == "Questions" %}
+        <a style="padding-top: 15px; padding-left: 100px" href="{% url 'hot_questions' %}"> Hot Questions </a>
+    {% endif %}
+{% endblock %}
+
+
+
+{% block left_column  %}
+
+{% for question in page %}
+
+<div class="row border_quest_ans">
+    <!-- Аватар и лайки -->
+    <div class="col-md-2">
+        <img src = "{{ BASE_DIR }}/static/picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+        <br/>
+        <br/>
+        <span class="label label-default likes" width="200px">25</span>
+        <a href="#" class="btn btn-default   btn-mar">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+        </a>
+    </div>
+    <!-- Текст вопроса -->
+    <div class="col-md-10">
+        <a class="question_header" href="{% url 'question' question.id %}"> {{ question.title }}</a>
+        <p> {{ question.text }}</p>
+        <div>
+            <a class="answers" href="{% url 'question' question.id %}"> answer({{ question.answers }})</a> Tags
+            {% for i in "123" %}
+                <a class="tag" href="{% url 'tag' 2 %}">{{ right_column.tags.1 }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% empty %}
+    <li> Вопросов нет</li>
+{% endfor %}
+
+{% include "pagination.html" %}
+
+{% endblock %}
+
+
+
+
+<!-- <a class="btn btn-default glyphicon glyphicon-hand-up"></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-thumbs-up"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-heart"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-heart-empty"></span></a>
+<a href="#" class="btn btn-default"> <span class="glyphicon glyphicon-thumbs-down"></span></a>  -->

@@ -1,0 +1,79 @@
+.info_block{
+text-align:center;
+margin-top: 20px;
+}
+H2{
+font-size:200%;
+font-weight:bolder;
+}
+H1{
+padding-top:2%;
+padding-left: 15%;
+font-weight: bolder;
+padding-bottom:2%;
+}
+p{
+font-size: 16pt;
+line-height: 200%;
+}
+footer{
+padding-left: 5%;
+}
+.border_quest_ans{
+padding: 10px;
+border: 1px solid;  
+border-color:#000000;
+margin-bottom:15px;
+}
+.question_header{
+font-weight: bolder;
+font-size: 20pt;
+text-decoration:underline;
+}
+
+
+.tag{
+padding-left:10px;
+}
+
+
+.label-default {
+font-size: 18px;
+}
+
+.likes{
+margin-right: 4px;
+padding:6px;
+	font-size:16px;
+
+}
+
+.answers{
+margin-right:200px;
+}
+
+.profile-image {
+padding-top: 3px;
+padding-bottom: 3px;
+margin-right:10px;  
+}
+
+.user_navbar{
+	color: #FFFFFF; 
+	margin-right:10px;
+}
+
+.btn-mar{
+	margin-bottom:2px;
+}
+
+.navbar-brend {
+width:60px;
+height:50px;
+position:relative;
+bottom: 10 px; это сдвиг снизу
+}
+
+.margin-bottom{
+	margin-bottom:100px;
+}

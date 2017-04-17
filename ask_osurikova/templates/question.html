@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    Question {{ question.id }}
+{% endblock %}
+
+{% block left_column  %}
+<div class="row">
+    <!-- Аватар и лайки -->
+    <div class="col-md-2">
+        <img src="{{ BASE_DIR }}/static/picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+        <br/>
+        <br/>
+        <span class="label label-default likes" width="200px">25</span>
+        <a href="#" class="btn btn-default   btn-mar">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+        </a>
+    </div>
+    <!-- Текст вопроса -->
+    <div class="col-md-10">
+        <a class="question_header"> {{ question.title }}</a>
+        <p>{{ question.text }}</p>
+        <div>
+            {% for i in "123" %}
+                <a class="tag" href="{% url 'tag' 2 %}">{{ right_column.tags.1 }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!--Линия перед ответами-->
+<hr> </hr>
+
+<!-- Ответы -->
+    {% for answer in answers %}
+    <div class="row border_quest_ans">
+    <!-- Аватар и лайки -->
+    <div class="col-md-2">
+        <img src="{{ BASE_DIR }}/static/picture.jpg" class="img-thumbnail" alt="Coc" width="200px" height="150px"/>
+        <br/>
+        <br/>
+        <span class="label label-default likes" width="200px">25</span>
+        <a href="#" class="btn btn-default   btn-mar">
+            <span class="glyphicon glyphicon-thumbs-up"></span>
+        </a>
+    </div>
+    <!-- Текст ответа-->
+    <div class="col-md-10">
+        <p> {{ answer }}</p>
+        <div class="checkbox">
+            <label><input type="checkbox" value="">Correct!</label>
+        </div>
+    </div>
+</div>
+    {% empty %}
+    На данный момент нет ответов на этот вопрос.
+    {% endfor %}
+
+<div class="row">
+    <!-- Форма создания ответа -->
+    <form class="form-horizontal">
+        <!-- Текст ответа -->
+        <div class="form-group ">
+            <textarea class="form-control " rows="5" id="answer" placeholder="Enter your answer here..."></textarea>
+        </div>
+    </form>
+    <!-- Кнопка Answer -->
+    <div class="form-group">
+        <div class="col-xs-10">
+            <button type="submit" class="btn btn-default">Answer!</button>
+        </div>
+    </div>
+</div> <!--Row(end)-->
+{% endblock %}
+
+

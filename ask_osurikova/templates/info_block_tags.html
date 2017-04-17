@@ -1,0 +1,10 @@
+<div class="row info_block">
+    <H2>Popular Tags</H2>
+    <p>
+        {% for tag in right_column.tags %}
+            <a href="{% url 'tag' tag %}"> {{ tag }} </a> &nbsp;
+        {% empty %}
+            Тэгов нет
+        {% endfor %}
+    </p>
+</div>

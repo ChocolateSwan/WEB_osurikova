@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    New Question
+{% endblock %}
+
+{% block left_column  %}
+<div class="row">
+    <div class="alert alert-danger">
+        <strong>Sorry! </strong>You have to choose only three tags
+    </div>
+</div>
+<div class="row">
+    <!-- Форма создания вопроса -->
+    <form class="form-horizontal">
+        <!-- Заголовок вопроса -->
+        <div class="form-group">
+            <label for="title" class="col-xs-3 control-label">Title</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="title">
+            </div>
+        </div>
+        <!-- Текст вопроса -->
+        <div class="form-group">
+            <label for="text" class="col-xs-3 control-label">Text</label>
+            <div class="col-xs-6">
+                <div class="has-error">
+                    <textarea type="text" class="form-control" id="text"> </textarea>
+                    <label class="control-label" for="inputError">Error!</label>
+                </div>
+            </div>
+        </div>
+        <!-- Тэги вопроса -->
+        <div class="form-group">
+            <label for="tags" class="col-xs-3 control-label">Tags</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="tags">
+            </div>
+        </div>
+        <!-- Кнопка Ask! -->
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-6">
+                <button type="submit" class="btn btn-default">Ask!</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
+

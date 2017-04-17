@@ -1,0 +1,11 @@
+<ul class="nav navbar-nav navbar-right">
+      {% if not request.user.is_authenticated %}
+      <li> <img src="{{ BASE_DIR }}/static/picture.jpg" class="profile-image img-circle navbar-right" width="40px"> </li>
+      <li><span class="navbar-text navbar-right user_navbar">User</span></li>
+      <li><a href="{% url 'settings' %}">settings</a></li>
+      <li><a href="#">logout</a></li>
+      {% else %}
+      <li><a href="{% url 'log_in' %}">log in</a></li>
+      <li><a href="{% url 'sign_up' %}">sign up</a></li>
+      {% endif %}
+</ul>

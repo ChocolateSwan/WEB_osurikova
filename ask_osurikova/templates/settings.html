@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    Settings: Dr. Pepper
+{% endblock %}
+
+{% block left_column  %}
+<div class="row">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="inputLogin" class="col-xs-3 control-label">Login:</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="inputLogin" value="dr_pepper">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail" class="col-xs-3 control-label">Email:</label>
+            <div class="col-xs-6">
+                <input type="email" class="form-control" id="inputEmail" value="dr_pepper@mail.ru">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputNickName" class="col-xs-3 control-label">NickName:</label>
+            <div class="col-xs-6">
+                <input type="text" class="form-control" id="inputNickName" value="Dr. Pepper">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword" class="col-xs-3 control-label">Password:</label>
+            <div class="col-xs-6">
+                <input type="password" class="form-control" id="inputPassword" value="password">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputAvatar" class="col-xs-3 control-label">Apload avatar:</label>
+            <div class="col-xs-6">
+                <img src="picture.jpg" class="img-thumbnail" alt="Coc" width="100px" height="100px"/>
+                <input type="file" title="Search for a file to add">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-6">
+                <button type="submit" class="btn btn-default">Save!</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}

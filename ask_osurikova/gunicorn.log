@@ -1,0 +1,183 @@
+[2017-03-23 22:56:37 +0300] [29084] [INFO] Starting gunicorn 19.7.0
+[2017-03-23 22:56:37 +0300] [29084] [INFO] Listening at: http://127.0.0.1:8081 (29084)
+[2017-03-23 22:56:37 +0300] [29084] [INFO] Using worker: sync
+[2017-03-23 22:56:37 +0300] [29087] [INFO] Booting worker with pid: 29087
+[2017-03-23 22:57:01 +0300] [29084] [INFO] Handling signal: int
+[2017-03-23 22:57:02 +0300] [29087] [INFO] Worker exiting (pid: 29087)
+[2017-03-23 22:57:02 +0300] [29084] [INFO] Shutting down: Master
+[2017-03-23 22:57:03 +0300] [29755] [INFO] Starting gunicorn 19.7.0
+[2017-03-23 22:57:03 +0300] [29755] [INFO] Listening at: http://127.0.0.1:8081 (29755)
+[2017-03-23 22:57:03 +0300] [29755] [INFO] Using worker: sync
+[2017-03-23 22:57:03 +0300] [29758] [INFO] Booting worker with pid: 29758
+[2017-03-23 22:58:16 +0300] [29755] [INFO] Handling signal: int
+[2017-03-23 22:58:16 +0300] [29758] [INFO] Worker exiting (pid: 29758)
+[2017-03-23 22:58:16 +0300] [29755] [INFO] Shutting down: Master
+[2017-03-23 23:03:09 +0300] [9956] [INFO] Starting gunicorn 19.7.0
+[2017-03-23 23:03:09 +0300] [9956] [INFO] Listening at: http://127.0.0.1:8081 (9956)
+[2017-03-23 23:03:09 +0300] [9956] [INFO] Using worker: sync
+[2017-03-23 23:03:09 +0300] [9959] [INFO] Booting worker with pid: 9959
+[2017-03-23 23:03:09 +0300] [9960] [INFO] Booting worker with pid: 9960
+[2017-03-23 23:03:09 +0300] [9961] [INFO] Booting worker with pid: 9961
+[2017-03-23 23:03:09 +0300] [9962] [INFO] Booting worker with pid: 9962
+[2017-03-23 23:03:09 +0300] [9963] [INFO] Booting worker with pid: 9963
+[2017-03-23 23:03:09 +0300] [9964] [INFO] Booting worker with pid: 9964
+[2017-03-23 23:03:09 +0300] [9965] [INFO] Booting worker with pid: 9965
+[2017-03-23 23:03:09 +0300] [9966] [INFO] Booting worker with pid: 9966
+[2017-03-23 23:03:09 +0300] [9967] [INFO] Booting worker with pid: 9967
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9959)
+[2017-03-24 12:34:59 +0300] [9959] [INFO] Worker exiting (pid: 9959)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9960)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9961)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9962)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9963)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9964)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9965)
+[2017-03-24 12:34:59 +0300] [9962] [INFO] Worker exiting (pid: 9962)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9966)
+[2017-03-24 12:34:59 +0300] [9956] [CRITICAL] WORKER TIMEOUT (pid:9967)
+[2017-03-24 12:34:59 +0300] [9960] [INFO] Worker exiting (pid: 9960)
+[2017-03-24 12:34:59 +0300] [9966] [INFO] Worker exiting (pid: 9966)
+[2017-03-24 12:34:59 +0300] [9961] [INFO] Worker exiting (pid: 9961)
+[2017-03-24 12:34:59 +0300] [9965] [INFO] Worker exiting (pid: 9965)
+[2017-03-24 12:34:59 +0300] [9964] [INFO] Worker exiting (pid: 9964)
+[2017-03-24 12:34:59 +0300] [9967] [INFO] Worker exiting (pid: 9967)
+[2017-03-24 12:34:59 +0300] [9963] [INFO] Worker exiting (pid: 9963)
+[2017-03-24 12:34:59 +0300] [16922] [INFO] Booting worker with pid: 16922
+[2017-03-24 12:34:59 +0300] [16943] [INFO] Booting worker with pid: 16943
+[2017-03-24 12:34:59 +0300] [16944] [INFO] Booting worker with pid: 16944
+[2017-03-24 12:34:59 +0300] [16945] [INFO] Booting worker with pid: 16945
+[2017-03-24 12:34:59 +0300] [16948] [INFO] Booting worker with pid: 16948
+[2017-03-24 12:34:59 +0300] [16949] [INFO] Booting worker with pid: 16949
+[2017-03-24 12:34:59 +0300] [16950] [INFO] Booting worker with pid: 16950
+[2017-03-24 12:34:59 +0300] [16951] [INFO] Booting worker with pid: 16951
+[2017-03-24 12:34:59 +0300] [16952] [INFO] Booting worker with pid: 16952
+[2017-03-24 12:35:28 +0300] [9956] [INFO] Handling signal: int
+[2017-03-24 12:35:28 +0300] [16944] [INFO] Worker exiting (pid: 16944)
+[2017-03-24 12:35:28 +0300] [16950] [INFO] Worker exiting (pid: 16950)
+[2017-03-24 12:35:28 +0300] [16945] [INFO] Worker exiting (pid: 16945)
+[2017-03-24 12:35:28 +0300] [16922] [INFO] Worker exiting (pid: 16922)
+[2017-03-24 12:35:28 +0300] [16949] [INFO] Worker exiting (pid: 16949)
+[2017-03-24 12:35:28 +0300] [16948] [INFO] Worker exiting (pid: 16948)
+[2017-03-24 12:35:28 +0300] [16943] [INFO] Worker exiting (pid: 16943)
+[2017-03-24 12:35:28 +0300] [16951] [INFO] Worker exiting (pid: 16951)
+[2017-03-24 12:35:28 +0300] [16952] [INFO] Worker exiting (pid: 16952)
+[2017-03-24 12:35:28 +0300] [9956] [INFO] Shutting down: Master
+[2017-03-28 16:21:09 +0300] [5063] [INFO] Starting gunicorn 19.7.0
+[2017-03-28 16:21:09 +0300] [5063] [INFO] Listening at: http://127.0.0.1:8081 (5063)
+[2017-03-28 16:21:09 +0300] [5063] [INFO] Using worker: sync
+[2017-03-28 16:21:09 +0300] [5067] [INFO] Booting worker with pid: 5067
+[2017-03-28 16:21:09 +0300] [5067] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/util.py", line 376, in import_app
+    __import__(module)
+ImportError: No module named 'HelloWorld'
+[2017-03-28 16:21:09 +0300] [5067] [INFO] Worker exiting (pid: 5067)
+[2017-03-28 16:21:09 +0300] [5068] [INFO] Booting worker with pid: 5068
+[2017-03-28 16:21:09 +0300] [5068] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 578, in spawn_worker
+    worker.init_process()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 126, in init_process
+    self.load_wsgi()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 135, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/olyasur/.local/lib/python3.5/site-packages/gunicorn/util.py", line 376, in import_app
+    __import__(module)
+ImportError: No module named 'HelloWorld'
+[2017-03-28 16:21:09 +0300] [5068] [INFO] Worker exiting (pid: 5068)
+[2017-03-28 16:21:14 +0300] [5072] [INFO] Starting gunicorn 19.7.0
+[2017-03-28 16:21:14 +0300] [5072] [INFO] Listening at: http://127.0.0.1:8081 (5072)
+[2017-03-28 16:21:14 +0300] [5072] [INFO] Using worker: sync
+[2017-03-28 16:21:14 +0300] [5075] [INFO] Booting worker with pid: 5075
+[2017-03-28 16:21:14 +0300] [5075] [INFO] Worker exiting (pid: 5075)
+[2017-03-28 16:21:14 +0300] [5072] [INFO] Shutting down: Master
+[2017-03-28 16:21:14 +0300] [5072] [INFO] Reason: App failed to load.
+[2017-03-28 16:22:02 +0300] [5845] [INFO] Starting gunicorn 19.7.0
+[2017-03-28 16:22:02 +0300] [5845] [INFO] Listening at: http://127.0.0.1:8081 (5845)
+[2017-03-28 16:22:02 +0300] [5845] [INFO] Using worker: sync
+[2017-03-28 16:22:02 +0300] [5849] [INFO] Booting worker with pid: 5849
+[2017-03-28 16:22:02 +0300] [5850] [INFO] Booting worker with pid: 5850
+[2017-03-28 16:22:02 +0300] [5851] [INFO] Booting worker with pid: 5851
+[2017-03-28 16:22:02 +0300] [5852] [INFO] Booting worker with pid: 5852
+[2017-03-28 16:22:02 +0300] [5853] [INFO] Booting worker with pid: 5853
+[2017-03-28 16:22:02 +0300] [5854] [INFO] Booting worker with pid: 5854
+[2017-03-28 16:22:02 +0300] [5855] [INFO] Booting worker with pid: 5855
+[2017-03-28 16:22:02 +0300] [5856] [INFO] Booting worker with pid: 5856
+[2017-03-28 16:22:02 +0300] [5857] [INFO] Booting worker with pid: 5857
+[2017-03-28 16:23:58 +0300] [5845] [INFO] Handling signal: int
+[2017-03-28 16:23:58 +0300] [5850] [INFO] Worker exiting (pid: 5850)
+[2017-03-28 16:23:58 +0300] [5852] [INFO] Worker exiting (pid: 5852)
+[2017-03-28 16:23:58 +0300] [5856] [INFO] Worker exiting (pid: 5856)
+[2017-03-28 16:23:58 +0300] [5851] [INFO] Worker exiting (pid: 5851)
+[2017-03-28 16:23:58 +0300] [5855] [INFO] Worker exiting (pid: 5855)
+[2017-03-28 16:23:58 +0300] [5857] [INFO] Worker exiting (pid: 5857)
+[2017-03-28 16:23:58 +0300] [5854] [INFO] Worker exiting (pid: 5854)
+[2017-03-28 16:23:58 +0300] [5849] [INFO] Worker exiting (pid: 5849)
+[2017-03-28 16:23:58 +0300] [5853] [INFO] Worker exiting (pid: 5853)
+[2017-03-28 16:23:58 +0300] [5845] [INFO] Shutting down: Master
+[2017-03-28 16:25:46 +0300] [9808] [INFO] Starting gunicorn 19.7.0
+[2017-03-28 16:25:46 +0300] [9808] [INFO] Listening at: http://127.0.0.1:8081 (9808)
+[2017-03-28 16:25:46 +0300] [9808] [INFO] Using worker: sync
+[2017-03-28 16:25:46 +0300] [9812] [INFO] Booting worker with pid: 9812
+[2017-03-28 16:25:46 +0300] [9814] [INFO] Booting worker with pid: 9814
+[2017-03-28 16:25:46 +0300] [9815] [INFO] Booting worker with pid: 9815
+[2017-03-28 16:25:46 +0300] [9973] [INFO] Booting worker with pid: 9973
+[2017-03-28 16:25:46 +0300] [10214] [INFO] Booting worker with pid: 10214
+[2017-03-28 16:25:46 +0300] [10216] [INFO] Booting worker with pid: 10216
+[2017-03-28 16:25:46 +0300] [10218] [INFO] Booting worker with pid: 10218
+[2017-03-28 16:25:47 +0300] [10220] [INFO] Booting worker with pid: 10220
+[2017-03-28 16:25:47 +0300] [10222] [INFO] Booting worker with pid: 10222
+[2017-03-28 16:25:56 +0300] [9808] [INFO] Handling signal: int
+[2017-03-28 13:25:56 +0000] [9812] [INFO] Worker exiting (pid: 9812)
+[2017-03-28 13:25:56 +0000] [9814] [INFO] Worker exiting (pid: 9814)
+[2017-03-28 13:25:56 +0000] [9973] [INFO] Worker exiting (pid: 9973)
+[2017-03-28 13:25:56 +0000] [10218] [INFO] Worker exiting (pid: 10218)
+[2017-03-28 13:25:56 +0000] [9815] [INFO] Worker exiting (pid: 9815)
+[2017-03-28 13:25:56 +0000] [10214] [INFO] Worker exiting (pid: 10214)
+[2017-03-28 13:25:56 +0000] [10216] [INFO] Worker exiting (pid: 10216)
+[2017-03-28 13:25:56 +0000] [10220] [INFO] Worker exiting (pid: 10220)
+[2017-03-28 13:25:56 +0000] [10222] [INFO] Worker exiting (pid: 10222)
+[2017-03-28 16:25:56 +0300] [9808] [INFO] Shutting down: Master
+[2017-03-28 16:26:15 +0300] [10597] [INFO] Starting gunicorn 19.7.0
+[2017-03-28 16:26:15 +0300] [10597] [INFO] Listening at: http://127.0.0.1:8000 (10597)
+[2017-03-28 16:26:15 +0300] [10597] [INFO] Using worker: sync
+[2017-03-28 16:26:15 +0300] [10600] [INFO] Booting worker with pid: 10600
+[2017-03-28 16:26:15 +0300] [10603] [INFO] Booting worker with pid: 10603
+[2017-03-28 16:26:15 +0300] [10604] [INFO] Booting worker with pid: 10604
+[2017-03-28 16:26:15 +0300] [10605] [INFO] Booting worker with pid: 10605
+[2017-03-28 16:26:15 +0300] [10609] [INFO] Booting worker with pid: 10609
+[2017-03-28 16:26:15 +0300] [10611] [INFO] Booting worker with pid: 10611
+[2017-03-28 16:26:15 +0300] [10613] [INFO] Booting worker with pid: 10613
+[2017-03-28 16:26:16 +0300] [10615] [INFO] Booting worker with pid: 10615
+[2017-03-28 16:26:16 +0300] [10617] [INFO] Booting worker with pid: 10617
+[2017-03-28 16:34:22 +0300] [10597] [INFO] Handling signal: winch
+[2017-03-28 16:45:01 +0300] [10597] [INFO] Handling signal: winch
+[2017-03-28 16:45:25 +0300] [10597] [INFO] Handling signal: int
+[2017-03-28 13:45:25 +0000] [10611] [INFO] Worker exiting (pid: 10611)
+[2017-03-28 13:45:25 +0000] [10609] [INFO] Worker exiting (pid: 10609)
+[2017-03-28 13:45:25 +0000] [10613] [INFO] Worker exiting (pid: 10613)
+[2017-03-28 13:45:25 +0000] [10603] [INFO] Worker exiting (pid: 10603)
+[2017-03-28 13:45:25 +0000] [10617] [INFO] Worker exiting (pid: 10617)
+[2017-03-28 13:45:25 +0000] [10604] [INFO] Worker exiting (pid: 10604)
+[2017-03-28 13:45:25 +0000] [10615] [INFO] Worker exiting (pid: 10615)
+[2017-03-28 13:45:25 +0000] [10605] [INFO] Worker exiting (pid: 10605)
+[2017-03-28 13:45:25 +0000] [10600] [INFO] Worker exiting (pid: 10600)
+[2017-03-28 16:45:25 +0300] [10597] [INFO] Shutting down: Master
